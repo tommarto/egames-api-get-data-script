@@ -1,0 +1,7 @@
+{
+    "DB_USER"        :   "root",
+    "DB_PASS"        :   "",
+    "DB_HOST"        :   "localhost:3310",
+    "DB_NAME"        :   "egames",
+    "API_URL"        :   "https://www.goalserve.com/getfeed/{key???}/esports/home?json=1"  
+}

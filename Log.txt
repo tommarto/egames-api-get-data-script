@@ -1,0 +1,127 @@
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:31:00] - Error Alert!
+
+
+Error al instanciar PDO
+
+
+• Error Thrown Info:
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /Users/tommarto/Desktop/egames-api-get-data-script/getData.php:17
+Stack trace:
+#0 /Users/tommarto/Desktop/egames-api-get-data-script/getData.php(17): PDO->__construct('mysql:host=loca...', 'root', '1234')
+#1 {main}.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:33:04] - Error Alert!
+
+
+Error al abrir Config.json
+
+
+• Details:
+El error se produce al intentar hacer un file_get_contents(Config.json) del archivo config.json..
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:35:12] - Error Alert!
+
+
+Error al parsear Config.json
+
+
+• Details:
+Al parsear el archivo config.json con json_decode() ha devuelto NULL.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:38:56] - Error Alert!
+
+
+Error al ejecutar request cURL
+
+
+• Details:
+Al ejecutar la peticion cURL del curlHandler que tiene seteada la URL de la API, curl_exec devuelve false.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:51:05] - Error Alert!
+
+
+Error al ejecutar el query sql
+
+
+• Details:
+Al ejecutar el query sql mediante $stmt->execute(), ha devuelto false..
+
+• Error Thrown Info:
+Error Code: 42000. \nError Info: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO matches (id, status, league_id, league, rounds, type, timer, date, time,...' at line 1.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:52:04] - Error Alert!
+
+
+Error al ejecutar el query sql
+
+
+• Details:
+Al ejecutar el query sql mediante $stmt->execute(), ha devuelto false..
+
+• Error Thrown Info:
+Error Code: 42000. 
+Error Info: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INTO matches (id, status, league_id, league, rounds, type, timer, date, time,...' at line 1.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[05/02/2021 - 21:57:38] - Procedure Success! 
+
+El script ha terminado su ejecucion con exito
+
+• Details: -Se han descargado los datos desde la API correctamente. 
+-Se almacenaron los datos en la BBDD correctamente. 
+-Los registros con un id ya existente fueron actualizados. 
+-En esta operacion se han visto afectados 625 registros..
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[06/02/2021 - 01:00:27] - Procedure Success! 
+
+El script ha terminado su ejecucion con exito
+
+• Details: 
+-Se han descargado los datos desde la API correctamente. 
+-Se almacenaron los datos en la BBDD correctamente. 
+-Los registros con un id ya existente fueron actualizados. 
+-En esta operacion se han visto afectados 313 registros.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+[06/02/2021 - 01:01:03] - Procedure Success! 
+
+El script ha terminado su ejecucion con exito
+
+• Details: 
+-Se han descargado los datos desde la API correctamente. 
+-Se almacenaron los datos en la BBDD correctamente. 
+-Los registros con un id ya existente fueron actualizados. 
+-En esta operacion se han visto afectados 640 registros.
+
+//////////////////////////////////////////////////////////////////////////////////////////
